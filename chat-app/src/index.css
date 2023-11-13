@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+body {
+  background-color: rgb(10, 32, 30);
+}
+
+.App {
+  min-width: 370px;
+  max-width: 500px;
+  background-color: rgb(10, 32, 30);
+  height: 100vh;
+  margin: auto;
+}
